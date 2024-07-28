@@ -6,7 +6,7 @@ int main() {
     {
       soma += i;
     }
-  std::cout << "Hello World!\n" << endl;
+  std::cout << "Hello World!\n" << std::endl;
   std::cout << soma;
   
 }
