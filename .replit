@@ -1,2 +1,7 @@
+modules = ["cpp-clang14"]
+run = "testar2"
 [nix]
 channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "testar2"]
